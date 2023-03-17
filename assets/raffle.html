@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="./style_1.css"> 
+    <title>Raffle</title>
+</head>
+<body>
+    <header>
+        <div class="menu">
+            <nav class="navbar">
+                <ul class="list">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./aboutUs.html">About Us</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./schedule.html">Schedule</a></li>
+                    <li><a href="./benefits.html">Benefits & Tips</a></li>
+                    <li><a href="#"></a>Raffle</li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+    <h1 class="main-title">Raffle</h1>
+    <h2 class="second-title">Every month in this section you can participate in a raffle.</h2>
+    <form action="show_data.html" method="get">
+        <fieldset class="form_1">
+            <legend>PARTICIPATE IN OUR RAFFLE FOR A MONTH OF PERSONALIZED TRAINING.</legend>
+            <label for="first_name">First Name:</label>
+            <input type="text" id="first_name" name="first_name">
+            <label for="last_name">Last Name:</label>
+            <input type="text" id="last_name" name="last_name">
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email">
+            <label for="gender">Choose your gender:</label>
+            <select name="gender" id="gender">
+                <option>Choose</option>
+                <option>Male</option>
+                <option>Female</option>
+                <option>No gender</option>
+            </select>
+            <label for="country">Country:</label>
+            <select name="gender" id="gender">
+                <option>Choose</option>
+                <option>Colombia</option>
+                <option>Argentina</option>
+                <option>Latam</option>
+            </select>
+        </fieldset>
+        <fieldset class="form_1">
+            <legend>Payment Options</legend>
+            <input type="radio" name="cash" id="cash" value="c">
+            <label for="cash">Cash</label> 
+            <input type="radio" name="credit" id="credit" value="cr">
+            <label for="credit">Credit Card</label> 
+            <input type="radio" name="debit" id="debit" value="d">
+            <label for="debit">Debit</label> 
+        </fieldset>
+        <fieldset class="form_1">
+            <legend>Services</legend>
+            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3285.329051652319!2d-58.446671884175714!3d-34.570539663251516!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb5c6b59d95a3%3A0x9941aeb5a5aae3f2!2sMcDonald's!5e0!3m2!1ses!2sar!4v1678910221417!5m2!1ses!2sar" width="200" height="150" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </fieldset>
+        <fieldset class="form_1">
+            <input type="checkbox" name="terms" id="terms" value="t">
+            <label for="terms">I accept terms and conditions...</label>
+        </fieldset>
+        <input type="submit" value="Send">
+    </form>
+</body>
+</html>
